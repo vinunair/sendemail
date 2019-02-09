@@ -1,22 +1,22 @@
 package com.github.vinunair.sendemail.vo;
 
-import java.util.List;
-
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
+
+import org.springframework.beans.factory.annotation.Value;
 
 public class EmailRequest {
 
   @NotNull	
   @Email(message="Invalid email")
   private String to;
-  
+  @Email(message="Invalid email")
   private String cc;
-  
+  @Email(message="Invalid email")
   private String bcc ;
-  
+  @Value("Hi")
   private String subject;
-  
+  @Value("Nothing much happening here")
   private String body;
 	
   	
