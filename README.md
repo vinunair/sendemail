@@ -2,6 +2,7 @@
 Send email with support for two implementations. The application should try with one email implementation and in case of failure should fallback to second implementation.
   
 **TODO**
+1. Doesnt work without authorized API key.
 1. Supports only one email recipient for TO,CC and BCC fields. To add multiple email recipients need to write custom validation for validating multiple email recipients.
 1. Better to configure timeouts for http api call.
 1. Exception handling need to better with the ability to figure out network/service down scenario from bad request.
