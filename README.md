@@ -6,7 +6,7 @@ Send email with support for two implementations. The application should try with
 1. Better to configure timeouts for http api call.
 1. Exception handling need to better with the ability to figure out network/service down scenario from bad request.
 1. The API is synchronous but better approach is to handle it asynchronously. Create a thread pool for email requests and once we get a proper email request object assign a thread to send email. 
-1. Write test case
+1. Write test cases
 
 **Setup**
 1. git clone https://github.com/vinunair/sendemail.git
