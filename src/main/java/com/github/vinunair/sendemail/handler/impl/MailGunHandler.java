@@ -13,7 +13,7 @@ import com.mashape.unirest.http.exceptions.UnirestException;
 public class MailGunHandler implements SendEmailHandler{
 	
 	public static final String DOMAIN_NAME = "sandbox57d086acb6f74def9c15a76745cdd490.mailgun.org";
-	public static final String API_KEY="231fd5dfc90c60aef395510c2a18e441-b9c15f4c-f5d1d4af";
+	public static final String API_KEY="";
 	
 	@Override
 	public boolean sendEmail(EmailRequest emailRequest)  {
