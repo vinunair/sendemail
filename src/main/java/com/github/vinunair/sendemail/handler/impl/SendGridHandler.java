@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SendGridHandler implements SendEmailHandler{
-     private String API_KEY="";
+     private String API_KEY=""; //supply API key here
      
      
      public boolean sendEmail(EmailRequest emailRequest)  {
