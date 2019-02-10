@@ -14,9 +14,9 @@ public class EmailRequest {
   private String cc;
   @Email(message="Invalid email")
   private String bcc ;
-  @Value("Hi")
+  @NotNull
   private String subject;
-  @Value("Nothing much happening here")
+ @NotNull
   private String body;
 	
   	
